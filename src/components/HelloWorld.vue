@@ -7,7 +7,7 @@
     </header>
     <div class="section-content cleafix">
       <div class="profile-img pull-left">
-        <img src="./img/dai2.png" />
+        <img src="/assets/dai2.png" />
       </div>
       <div class="profile-content pull-left">
         <div>
@@ -21,13 +21,13 @@
         </div>
         <div>
           <h2 class="home-title">使用したことのある技術・ソフトウェア</h2>
-          <img class="v-img" src="./img/logo.png" />
-          <img class="v-img" src="./img/vuetify.png" />
-          <img class="v-img" src="./img/vim-logo.png" />
-          <img class="v-img" src="./img/node.js.png" />
-          <img class="v-img" src="./img/java.png" />
-          <img class="v-img3" src="./img/html_logo2.png" />
-          <img class="v-img2" src="./img/php.png" />
+          <img class="v-img" src="/assets/logo.png" />
+          <img class="v-img" src="/assets/vuetify.png" />
+          <img class="v-img" src="/assets/vim-logo.png" />
+          <img class="v-img" src="/assets/node.js.png" />
+          <img class="v-img" src="/assets/java.png" />
+          <img class="v-img3" src="/assets/html_logo2.png" />
+          <img class="v-img2" src="/assets/php.png" />
         </div>
       </div>
     </div>

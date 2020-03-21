@@ -18,20 +18,20 @@
           </div>
           <div>
             <h2 class="title-2">使用した技術</h2>
-            <img class="v-img" src="./img/logo.png" />
-            <img class="v-img" src="./img/vuetify.png" />
-            <img class="v-img2" src="./img/Go.png" />
-            <img class="v-img2" src="./img/docker_logo.png" />
+            <img class="v-img" src="/assets/logo.png" />
+            <img class="v-img" src="/assets/vuetify.png" />
+            <img class="v-img2" src="/assets/Go.png" />
+            <img class="v-img2" src="/assets/docker_logo.png" />
           </div>
         </div>
         <div class="schedule-img pull-left">
-          <img src="./img/Schedule2.png" />
+          <img src="/assets/Schedule2.png" />
         </div>
       </div>
 
       <div class="section-content-second clearfix">
         <div class="pull-left">
-          <img class="miyako-img" src="./img/miyako.png" />
+          <img class="miyako-img" src="/assets/miyako.png" />
         </div>
         <div class="portfolio-content-second pull-left">
           <div>
@@ -45,8 +45,8 @@
           </div>
           <div>
             <h2 class="title-2">使用した技術</h2>
-            <img class="v-img3" src="./img/html_logo2.png" />
-            <img class="v-img4" src="./img/monaca.png" />
+            <img class="v-img3" src="/assets/html_logo2.png" />
+            <img class="v-img4" src="/assets/monaca.png" />
           </div>
         </div>
       </div>
@@ -63,15 +63,15 @@
           </div>
           <div>
             <h2 class="title-2">使用している技術</h2>
-            <img class="v-img" src="./img/logo.png" />
-            <img class="v-img" src="./img/vuetify.png" />
-            <img class="v-img2" src="./img/docker_logo.png" />
-            <img class="v-img" src="./img/circleci.png" />
-            <img class="v-img2" src="./img/socket.jpg" />
+            <img class="v-img" src="/assets/logo.png" />
+            <img class="v-img" src="/assets/vuetify.png" />
+            <img class="v-img2" src="/assets/docker_logo.png" />
+            <img class="v-img" src="/assets/circleci.png" />
+            <img class="v-img2" src="/assets/socket.jpg" />
           </div>
         </div>
         <div class="Strategy-img pull-left">
-          <img src="./img/StrategyBoard.jpg" />
+          <img src="/assets/StrategyBoard.jpg" />
         </div>
       </div>
     </div>
