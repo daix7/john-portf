@@ -17,18 +17,18 @@
           </div>
           <div>
             <h2 class="title-2">使用した技術</h2>
-            <img class="v-img" src="/assets/node.js.png" />
-            <img class="v-img" src="/assets/messaging_api.png" />
+            <img class="v-img" src="/img/node.js.png" />
+            <img class="v-img" src="/img/messaging_api.png" />
           </div>
         </div>
         <div class="line-img pull-left">
-          <img src="/assets/line_bot.png" />
+          <img src="/img/line_bot.png" />
         </div>
       </div>
 
       <div class="section-content-second clearfix">
         <div class="pull-left">
-          <img class="alexa-img" src="/assets/alexa.png" />
+          <img class="alexa-img" src="/img/alexa.png" />
         </div>
         <div class="portfolio-content-second pull-left">
           <div>
