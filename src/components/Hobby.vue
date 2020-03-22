@@ -155,7 +155,7 @@ img {
 }
 
 .l-constrained-large {
-  width: 9400px;
+  width: 940px;
   /* 940px */
   margin: 0 auto;
 }
