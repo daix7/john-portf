@@ -24,7 +24,7 @@ export default {
   name: "App",
   data() {
     return {
-      msg: "Wellcom to Daisuke Protfolio"
+      msg: "Wellcom to Daisuke Portfolio"
     };
   },
   methods: {

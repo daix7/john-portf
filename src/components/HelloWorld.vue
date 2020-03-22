@@ -12,7 +12,7 @@
       <div class="profile-content pull-left">
         <div>
           <h2 class="title-2">自己紹介</h2>
-          <p>
+          <p class="j-content">
             初めまして。私は益田大輔と申します。
             <br />高校生の頃からプログラミングを始め、アプリケーションなどを作っています。
             <br />言語は主にjavascriptを使用することが多く、Vue.jsというフレームワークを使い
@@ -79,7 +79,6 @@ img {
   /* height: 50px; */
 }
 
-
 .title-msg {
   color: white;
   border-bottom: 1px solid #fff;
@@ -87,10 +86,7 @@ img {
   margin-bottom: 150px;
 }
 .profile-img {
-  /* max-width: 200px; */
-  /* float: left; */
   width: 200px;
-  /* margin-left: 30%; */
 }
 .title-2 {
   margin-bottom: 20px;
@@ -130,9 +126,12 @@ img {
 }
 .l-constrained-large {
   width: 940px;
+  /* 940px */
   margin: 0 auto;
   margin-bottom: 40px;
 }
+
+
 .v-img {
   width: 100px;
   margin-left: 5px;
@@ -173,4 +172,51 @@ li {
   color: white;
   cursor: pointer;
 }
+
+
+
+
+@media (max-width: 414px) {
+  .l-constrained-large {
+    width: 410px;
+    /* 940px */
+    margin: 0 auto;
+    margin-bottom: 40px;
+    align-items: center;
+  }
+
+  .profile-img {
+    margin-left: 55px;
+    width: 100px;
+  }
+
+  .j-content {
+    font-size: 14px;
+  }
+
+  .profile-content {
+    width: 72%;
+    margin-left: 55px;
+    text-align: left;
+    padding: 0px 8px;
+    line-height: 180%;
+  }
+
+  .v-img {
+    width: 50px;
+    margin-left: 5px;
+  }
+
+  .v-img2 {
+    width: 60px;
+    margin-bottom: 10px;
+    margin-left: 5px;
+  }
+
+  .v-img3 {
+    width: 125px;
+    margin-left: 5px;
+  }
+}
+
 </style>

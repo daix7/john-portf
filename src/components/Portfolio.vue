@@ -54,11 +54,11 @@
       <div class="section-content-Third clearfix">
         <div class="portfolio-content-Third pull-left">
           <div>
-            <h2 class="title-2">OnlineBoard</h2>
-            <p class="content">
+            <h2 class="title-4">OnlineBoard</h2>
+            <p class="content3">
               <br />ゲームの戦略を練るときにオンライン上でチームメンバーと
-              <br />マップを共有して、より簡単に作戦会議などが行える事を目的に
-              <br />現在フロントエンドに携わっており制作している段階です。
+              マップを共有して、より簡単に作戦会議などが行える事を目的に
+              現在フロントエンドに携わっており制作している段階です。
             </p>
           </div>
           <div>
@@ -130,11 +130,8 @@ img {
   margin-bottom: 150px;
 }
 .schedule-img {
-  /* max-width: 200px; */
-  /* float: left; */
   width: 200px;
   margin-top: 20px;
-  /* margin-left: 30%; */
 }
 
 .Strategy-img {
@@ -155,6 +152,11 @@ img {
 
 .title-3 {
   font-size: 28px;
+}
+
+.title-4 {
+  font-size: 30px;
+  margin-top: 30px;
 }
 
 .section-body {
@@ -276,9 +278,128 @@ li {
   margin-bottom: 30px;
 }
 
+.content3 {
+  margin-bottom: 30px;
+  width: 500px;
+}
+
 .clearfix:after {
   content: "";
   clear: both;
   display: block;
+}
+
+@media (max-width: 414px) {
+  .l-constrained-large {
+    width: 410px;
+    /* 940px */
+    margin: 0 auto;
+    margin-bottom: 40px;
+    align-items: center;
+  }
+
+  .title-2 {
+    font-size: 30px;
+    margin-top: 30px;
+    margin-bottom: 0px;
+  }
+
+  .profile-img {
+    margin-left: 55px;
+    width: 100px;
+  }
+
+  .j-content {
+    font-size: 14px;
+  }
+
+  .section-body {
+    width: 350px;
+    margin-left: 0px;
+    padding-left: 60px;
+  }
+
+  .section-content {
+    width: 300px;
+    font-size: 14px;
+    padding: 8px 0px 24px 0px;
+    margin-top: 0 !important;
+  }
+
+  .section-content-second {
+    width: 300px;
+    padding: 8px 0px 24px 0px;
+    margin: 0 !important;
+  }
+
+  .section-content-Third {
+    margin: 0 !important;
+    width: 300px;
+  }
+
+  .portfolio-content {
+    width: 70%;
+    margin-left: 0px;
+    text-align: left;
+    padding: 0px 8px;
+    line-height: 180%;
+  }
+
+  .portfolio-content-second {
+    width: 70%;
+    margin-top: 30px;
+    margin-left: 80px;
+    text-align: left;
+    padding: 0px 0px 0px 0px;
+    line-height: 180%;
+  }
+
+  .portfolio-content-Third {
+    width: 80%;
+    /* margin-left: 20px; */
+    text-align: left;
+    /* padding: 0px 8px; */
+    line-height: 180%;
+  }
+
+  .content3 {
+    margin-top: 0px;
+    margin-bottom: 30px;
+    width: 240px;
+  }
+
+  .v-img {
+    width: 50px;
+    margin-left: 5px;
+  }
+
+  .v-img2 {
+    width: 60px;
+    margin-bottom: 10px;
+    margin-left: 5px;
+  }
+
+  .v-img3 {
+    width: 125px;
+    margin-left: 5px;
+  }
+
+  .miyako-img {
+    width: 180px;
+    margin-top: 40px;
+    margin-left: 0px;
+  }
+
+  .schedule-img {
+    width: 200px;
+    margin-top: 20px;
+    margin-left: 90px;
+  }
+
+  .Strategy-img {
+    width: 250px;
+    margin-top: 40px;
+    margin-left: 30px;
+  }
 }
 </style>

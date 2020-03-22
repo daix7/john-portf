@@ -92,11 +92,8 @@ img {
   margin-bottom: 150px;
 }
 .line-img {
-  /* max-width: 200px; */
-  /* float: left; */
   width: 200px;
   margin-top: 20px;
-  /* margin-left: 30%; */
 }
 
 .alexa-img {
@@ -113,7 +110,6 @@ img {
 .title-3 {
   font-size: 28px;
   margin-top: 60px;
-  /* margin-bottom: 20px; */
 }
 
 .section-body {
@@ -153,14 +149,14 @@ img {
   line-height: 180%;
 }
 
-
 .pull-left {
   float: left;
   box-sizing: border-box;
 }
 
 .l-constrained-large {
-  width: 940px;
+  width: 9400px;
+  /* 940px */
   margin: 0 auto;
 }
 .v-img {
@@ -192,7 +188,6 @@ img {
   padding-bottom: 20px;
 }
 
-
 .hobby-title {
   display: inline;
   font-size: 50px;
@@ -219,5 +214,70 @@ li {
   content: "";
   clear: both;
   display: block;
+}
+
+@media (max-width: 414px) {
+  .l-constrained-large {
+    width: 410px;
+    /* 940px */
+    margin: 0 auto;
+    margin-bottom: 40px;
+    align-items: center;
+  }
+
+  .section-body {
+    width: 350px;
+    margin-left: 0px;
+    padding-left: 60px;
+  }
+
+  .section-content {
+    width: 300px;
+    font-size: 14px;
+    padding: 8px 0px 24px 0px;
+    margin-top: 0 !important;
+  }
+
+  .portfolio-content {
+    width: 80%;
+    margin-top: 40px;
+    margin-left: 0px;
+    text-align: left;
+    padding: 0px 8px;
+    line-height: 180%;
+  }
+
+  .portfolio-content-second {
+    width: 75%;
+    margin-left: 20px;
+    text-align: left;
+    padding: 0px 0px 0px 0px;
+    line-height: 180%;
+  }
+
+  .section-content-second {
+    /* font-size: 36px; */
+    padding: 8px 0px 24px 0px;
+    margin-top: 30px;
+    align-content: center;
+  }
+
+  .line-img {
+    width: 200px;
+    margin-top: 20px;
+    margin-left: 100px;
+  }
+
+  .title-3 {
+    font-size: 28px;
+    margin-top: 0px;
+  }
+
+  .alexa-img {
+    width: 130px;
+    margin-top: 0px;
+    margin-left: 0px;
+    padding-left: 0px;
+  }
 }
 </style>
