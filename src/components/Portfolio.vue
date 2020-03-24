@@ -18,20 +18,20 @@
           </div>
           <div>
             <h2 class="title-2">使用した技術</h2>
-            <img class="v-img" src="/img/logo.png" />
-            <img class="v-img" src="/img/vuetify.png" />
-            <img class="v-img2" src="/img/Go.png" />
-            <img class="v-img2" src="/img/docker_logo.png" />
+            <img class="v-img" src="../img/logo.png" />
+            <img class="v-img" src="../img/vuetify.png" />
+            <img class="v-img2" src="../img/Go.png" />
+            <img class="v-img2" src="../img/docker_logo.png" />
           </div>
         </div>
         <div class="schedule-img pull-left">
-          <img src="/img/Schedule2.png" />
+          <img src="../img/Schedule2.png" />
         </div>
       </div>
 
       <div class="section-content-second clearfix">
-        <div class="pull-left">
-          <img class="miyako-img" src="/img/miyako.png" />
+        <div class="pull-left miyako-img">
+          <img src="../img/miyako.png" />
         </div>
         <div class="portfolio-content-second pull-left">
           <div>
@@ -45,8 +45,8 @@
           </div>
           <div>
             <h2 class="title-2">使用した技術</h2>
-            <img class="v-img3" src="/img/html_logo2.png" />
-            <img class="v-img4" src="/img/monaca.png" />
+            <img class="v-img3" src="../img/html_logo2.png" />
+            <img class="v-img4" src="../img/monaca.png" />
           </div>
         </div>
       </div>
@@ -63,15 +63,15 @@
           </div>
           <div>
             <h2 class="title-2">使用している技術</h2>
-            <img class="v-img" src="/img/logo.png" />
-            <img class="v-img" src="/img/vuetify.png" />
-            <img class="v-img2" src="/img/docker_logo.png" />
-            <img class="v-img" src="/img/circleci.png" />
-            <img class="v-img2" src="/img/socket.jpg" />
+            <img class="v-img" src="../img/logo.png" />
+            <img class="v-img" src="../img/vuetify.png" />
+            <img class="v-img2" src="../img/docker_logo.png" />
+            <img class="v-img" src="../img/circleci.png" />
+            <img class="v-img2" src="../img/socket.jpg" />
           </div>
         </div>
         <div class="Strategy-img pull-left">
-          <img src="/img/StrategyBoard.jpg" />
+          <img src="../img/StrategyBoard.jpg" />
         </div>
       </div>
     </div>
@@ -131,7 +131,6 @@ img {
 }
 .schedule-img {
   width: 200px;
-  margin-top: 20px;
 }
 
 .Strategy-img {
@@ -147,7 +146,7 @@ img {
 }
 .title-2 {
   font-size: 30px;
-  margin-top: 30px;
+  margin: 30 0px;
 }
 
 .title-3 {
@@ -157,10 +156,6 @@ img {
 .title-4 {
   font-size: 30px;
   margin-top: 30px;
-}
-
-.section-body {
-  margin-left: 20px;
 }
 
 .section-content h1 {
@@ -289,19 +284,19 @@ li {
   display: block;
 }
 
-@media (max-width: 414px) {
+@media (max-width: 768px) {
   .l-constrained-large {
-    width: 410px;
+    width: 100%;
     /* 940px */
     margin: 0 auto;
     margin-bottom: 40px;
+    padding: 0 10px;
     align-items: center;
+    box-sizing: border-box;
   }
 
   .title-2 {
     font-size: 30px;
-    margin-top: 30px;
-    margin-bottom: 0px;
   }
 
   .profile-img {
@@ -313,28 +308,28 @@ li {
     font-size: 14px;
   }
 
-  .section-body {
-    width: 350px;
-    margin-left: 0px;
-    padding-left: 60px;
-  }
-
   .section-content {
-    width: 300px;
+    width: 100%;
     font-size: 14px;
     padding: 8px 0px 24px 0px;
+    display: flex;
+    flex-direction: column;
     margin-top: 0 !important;
   }
 
   .section-content-second {
-    width: 300px;
+    width: 100%;
     padding: 8px 0px 24px 0px;
     margin: 0 !important;
+    display: flex;
+    flex-direction: column;
   }
 
   .section-content-Third {
     margin: 0 !important;
-    width: 300px;
+    width: 100%;
+    display: flex;
+    flex-direction: column;
   }
 
   .portfolio-content {
@@ -348,14 +343,15 @@ li {
   .portfolio-content-second {
     width: 70%;
     margin-top: 30px;
-    margin-left: 80px;
+    margin-left: 0;
     text-align: left;
-    padding: 0px 0px 0px 0px;
+    padding: 0;
     line-height: 180%;
+    align-self: flex-end;
   }
 
   .portfolio-content-Third {
-    width: 80%;
+    width: 100%;
     /* margin-left: 20px; */
     text-align: left;
     /* padding: 0px 8px; */
@@ -384,22 +380,34 @@ li {
     margin-left: 5px;
   }
 
+  .v-img4 {
+    width: 200px;
+    margin-bottom: 0;
+    margin-left: 5px;
+  }
   .miyako-img {
     width: 180px;
     margin-top: 40px;
     margin-left: 0px;
+    align-self: flex-start;
   }
 
   .schedule-img {
     width: 200px;
-    margin-top: 20px;
-    margin-left: 90px;
+    align-self: flex-end;
   }
 
   .Strategy-img {
     width: 250px;
     margin-top: 40px;
     margin-left: 30px;
+  }
+}
+
+@media screen and (max-width: 414px) {
+  .title-3 {
+    font-size: 6.5vw;
+    font-weight: bold;
   }
 }
 </style>

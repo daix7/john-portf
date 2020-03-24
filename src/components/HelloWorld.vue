@@ -7,7 +7,7 @@
     </header>
     <div class="section-content cleafix">
       <div class="profile-img pull-left">
-        <img src="/img/dai2.png" />
+        <img src="../img/dai2.png" />
       </div>
       <div class="profile-content pull-left">
         <div>
@@ -21,13 +21,13 @@
         </div>
         <div>
           <h2 class="home-title">使用したことのある技術・ソフトウェア</h2>
-          <img class="v-img" src="/img/logo.png" />
-          <img class="v-img" src="/img/vuetify.png" />
-          <img class="v-img" src="/img/vim-logo.png" />
-          <img class="v-img" src="/img/node.js.png" />
-          <img class="v-img" src="/img/java.png" />
-          <img class="v-img3" src="/img/html_logo2.png" />
-          <img class="v-img2" src="/img/php.png" />
+          <img class="v-img" src="../img/logo.png" />
+          <img class="v-img" src="../img/vuetify.png" />
+          <img class="v-img" src="../img/vim-logo.png" />
+          <img class="v-img" src="../img/node.js.png" />
+          <img class="v-img" src="../img/java.png" />
+          <img class="v-img3" src="../img/html_logo2.png" />
+          <img class="v-img2" src="../img/php.png" />
         </div>
       </div>
     </div>
@@ -131,7 +131,6 @@ img {
   margin-bottom: 40px;
 }
 
-
 .v-img {
   width: 100px;
   margin-left: 5px;
@@ -173,33 +172,44 @@ li {
   cursor: pointer;
 }
 
-
-
-
-@media (max-width: 414px) {
+@media (max-width: 768px) {
   .l-constrained-large {
-    width: 410px;
+    width: 100%;
     /* 940px */
     margin: 0 auto;
     margin-bottom: 40px;
     align-items: center;
+    padding: 0 40px;
+    align-items: center;
+    box-sizing: border-box;
   }
 
   .profile-img {
-    margin-left: 55px;
     width: 100px;
+    align-self: flex-start;
   }
 
   .j-content {
     font-size: 14px;
   }
 
+  .section-content {
+    display: flex;
+    flex-direction: column;
+  }
+
   .profile-content {
-    width: 72%;
-    margin-left: 55px;
+    width: 100%;
+    margin-left: 0px;
     text-align: left;
-    padding: 0px 8px;
+    padding: 0px 0px;
     line-height: 180%;
+    align-self: center;
+  }
+
+  .title-2 {
+    margin-bottom: 20px;
+    margin-right: 0%;
   }
 
   .v-img {
@@ -217,6 +227,14 @@ li {
     width: 125px;
     margin-left: 5px;
   }
+}
+
+@media screen and (max-width: 414px) {
+  .home-title {
+    margin-top: 20px;
+    margin-bottom: 20px;
+    font-size: 6.5vw;
+}
 }
 
 </style>

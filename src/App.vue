@@ -17,7 +17,6 @@
 </template>
 
 <script>
-// import HelloWorld from "./components/HelloWorld.vue";
 import router from "./router";
 
 export default {
@@ -55,12 +54,24 @@ export default {
   text-align: center;
   color: #2c3e50;
   margin-top: 0px;
+
 }
 /* <style scoped> */
 h1,
 h2 {
   font-weight: normal;
 }
+
+body {
+  min-width: 1150px;
+}
+
+@media screen and ( max-width: 768px) {
+  body {
+    min-width: auto;
+  }
+}
+
 
 ul {
   list-style-type: none;

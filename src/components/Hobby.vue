@@ -17,24 +17,24 @@
           </div>
           <div>
             <h2 class="title-2">使用した技術</h2>
-            <img class="v-img" src="/img/node.js.png" />
-            <img class="v-img" src="/img/messaging_api.png" />
+            <img class="v-img" src="../img/node.js.png" />
+            <img class="v-img" src="../img/messaging_api.png" />
           </div>
         </div>
         <div class="line-img pull-left">
-          <img src="/img/line_bot.png" />
+          <img src="../img/line_bot.png" />
         </div>
       </div>
 
       <div class="section-content-second clearfix">
-        <div class="pull-left">
-          <img class="alexa-img" src="/img/alexa.png" />
+        <div class="pull-left alexa-img">
+          <img src="../img/alexa.png" />
         </div>
         <div class="portfolio-content-second pull-left">
           <div>
             <h2 class="title-3">Alexa出勤管理BOT</h2>
-            <p>
-              <br />アレクサのスキル開発勉強中です。
+            <p class="content-3">
+              アレクサのスキル開発勉強中です。
               <br />まだ、企画段階で今後開発していく予定です。
               <br />
             </p>
@@ -134,7 +134,6 @@ img {
 }
 .portfolio-content {
   width: 50%;
-  margin-top: 40px;
   margin-left: 100px;
   text-align: left;
   padding: 0px 8px;
@@ -216,31 +215,32 @@ li {
   display: block;
 }
 
-@media (max-width: 414px) {
+@media (max-width: 768px) {
   .l-constrained-large {
-    width: 410px;
+    width: 100%;
     /* 940px */
     margin: 0 auto;
     margin-bottom: 40px;
+    padding: 0 20px;
     align-items: center;
+    box-sizing: border-box;
   }
 
   .section-body {
-    width: 350px;
     margin-left: 0px;
-    padding-left: 60px;
   }
 
   .section-content {
-    width: 300px;
+    width: 100%;
     font-size: 14px;
     padding: 8px 0px 24px 0px;
     margin-top: 0 !important;
+    display: flex;
+    flex-direction: column;
   }
 
   .portfolio-content {
     width: 80%;
-    margin-top: 40px;
     margin-left: 0px;
     text-align: left;
     padding: 0px 8px;
@@ -249,23 +249,25 @@ li {
 
   .portfolio-content-second {
     width: 75%;
-    margin-left: 20px;
+    margin-left: 0px;
     text-align: left;
     padding: 0px 0px 0px 0px;
     line-height: 180%;
+    align-self: flex-end;
   }
 
   .section-content-second {
     /* font-size: 36px; */
     padding: 8px 0px 24px 0px;
     margin-top: 30px;
-    align-content: center;
+    display: flex;
+    flex-direction: column;
   }
 
   .line-img {
     width: 200px;
     margin-top: 20px;
-    margin-left: 100px;
+    align-self: flex-end;
   }
 
   .title-3 {
@@ -278,6 +280,11 @@ li {
     margin-top: 0px;
     margin-left: 0px;
     padding-left: 0px;
+    text-align: left;
+  }
+  .content {
+    margin-bottom: 0px;
+    width: 190px;
   }
 }
 </style>
